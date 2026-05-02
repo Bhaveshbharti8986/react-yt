@@ -1,0 +1,26 @@
+.main-container{
+    background-color: rgb(245, 231, 213);
+   border:2px solid rgb(219, 186, 186) ;
+   border-radius: 10px;
+   padding: 20px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   font-size: large;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: black;
+
+}
+.btn{
+    font-size: large;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: black;
+ background-color: rgb(151, 61, 234);
+    color: rgb(229, 229, 238);
+    border-radius:10px;
+    padding:3px;
+    
+}
