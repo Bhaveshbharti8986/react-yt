@@ -8,4 +8,97 @@ body,html{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 height: 100%;
   width: 100%;
+  
+}
+.parent{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.card {
+display: flex;
+align-items:center;
+justify-content:space-between;
+flex-direction: column;
+background-color: #fff;
+border-radius: 50px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 20px;
+height: 380px;
+width: 300px;
+margin: 20px;
+border: 1px solid #ddd;
+
+}
+.card img {
+  width: 70px;
+  height:70px;
+  border-radius: 50%;
+padding: 5px;
+  border:1px solid #a9a5a5 ;
+margin: 5px;
+  object-fit: cover;
+}
+.card span {
+  color :#a19c9c
+}
+.top{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top button{
+  height:30px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  gap: 2px;
+  padding: 10px;
+  border-radius:10px;
+  border:1px solid #a9a5a5 ;
+}
+
+.center div{
+  width: 100%;
+display: flex ;
+align-items: center;
+gap:5px;
+margin:2px;
+}
+.center button{
+  height:20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:5px;
+  margin-top:5px;
+  border-radius:5px;
+  border:1px solid #a9a5a5 ;
+}
+.bottom{
+  width: 115%;
+  padding:5px 20px;
+  display: flex;
+justify-content: space-between;
+align-items: center;
+border-top: 2px solid  #a9a5a5 ;
+}
+.bottom button{
+  height:30px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  color: #fff;
+  background-color: #1d1919;
+  padding: 10px;
+  border-radius:10px;
+  border:1px solid #1d1919 ;
 }
