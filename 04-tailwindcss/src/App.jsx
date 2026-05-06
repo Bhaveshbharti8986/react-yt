@@ -27,7 +27,6 @@ function App() {
   return (
     <div className=' w-scren h-full flex flex-col '>
       <Section1 user={user}/>
-      
     </div>
   )   
 }
