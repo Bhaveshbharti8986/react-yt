@@ -110,7 +110,8 @@ function App() {
   return (
   
 <div className="parent">
-      { jobopenings.map((job,index) => ( 
+      { 
+      jobopenings.map((job,index) => ( 
         <div key={index}> 
           <Cards  img={job.img} brandname={job.brandname} day={job.day} level={job.level}  type={job.type} type1={job.type1} charge={job.charge} location={job.location}  />
         </div>

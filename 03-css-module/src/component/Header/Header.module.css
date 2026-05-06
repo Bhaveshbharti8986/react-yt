@@ -1,0 +1,9 @@
+.header{
+    background-color: brown;
+    color: azure;
+ padding: 20px;
+ margin: 20px;
+}
+.header p {
+    font: 30px bold;
+}

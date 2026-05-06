@@ -1,0 +1,23 @@
+.btn {
+    border:2px solid red ;
+    background-color: white;
+    color: rgb(45, 45, 111);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+.btn p{
+    color: royalblue;
+  font-size: xx-large;
+}
+.btn button{
+    background-color: rgb(20, 44, 230);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 5px solid red;
+    border-radius: 10px;
+}
