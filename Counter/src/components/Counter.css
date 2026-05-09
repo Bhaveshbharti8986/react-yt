@@ -6,21 +6,15 @@
    margin: auto;
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    align-items: center;
    gap: 1rem;
    font-size: large;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    color: black;
 
 }
-.btn{
-    font-size: large;
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   color: black;
- background-color: rgb(151, 61, 234);
-    color: rgb(229, 229, 238);
-    border-radius:10px;
-    padding:3px;
-    
+.button button{
+    width: 100px;
+    height: 30px;
+ margin: 20px;
 }
