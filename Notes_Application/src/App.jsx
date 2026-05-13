@@ -8,6 +8,7 @@ const Titlevalue=(e)=>{
   settitletext(e.target.value); 
 }
 const [textareatext, settextareatext] = useState('');
+
 const textareavalue=(e)=>{
   settextareatext(e.target.value); 
   
@@ -29,7 +30,7 @@ const onsubmit = (e) => {
       
         <form 
           onSubmit={onsubmit} 
-            action= "" className='flex flex-col items-center gap-4 px-5 py-3  lg:w-1/2 w-full pb-8  lg:border-r border-amber-50 bg-cyan-950'>
+            action= "" className='flex flex-col gap-4 px-5 py-3  lg:w-1/2 w-full pb-8  lg:border-r border-amber-50 bg-cyan-950'>
           <p className=' font-black  text-xl text-white '>Add Notes</p>
           <input 
           value={titletext} 
@@ -37,25 +38,25 @@ const onsubmit = (e) => {
           type="text"
 
            placeholder='Enter Title'
-            className='w-full px-5 py-1 font-black rounded text-2xl bg-zinc-500 text-white' />
+            className='w-full px-5 py-1 font-bold rounded text-xl bg-zinc-500 text-white' />
           <textarea
             value={textareatext}
           onChange={textareavalue}
            type="text" 
            placeholder='Write Details'
-            className='w-full   px-5 py-3 font-medium rounded text-xl bg-zinc-500 text-white'/>
+            className='w-full   px-5 py-3 font-semibold rounded text-md bg-zinc-500 text-white'/>
           <button
 
-           className='w-full p-1 font-black text-xl bg-white  text-black rounded border'
+           className='hover:bg-blue-300 font-semibold shadow-sm w-full p-1  text-xl bg-white  text-black rounded border'
             > Add Notes</button>
         </form>
 
 
 
         <div className='  bg-cyan-950 w-full h-auto lg:w-1/2 lg:h-auto  py-3 px-5 lg:overflow-y-scroll  '>
-          <div className='w-full h-auto flex justify-center  '>  
-            <h2 className=' font-black  text-xl text-white bg-cyan-950    '>Your Notes</h2>
-          </div>
+          
+            <h2 className=' font-black  text-xl text-white bg-cyan-950    '>Recent  Notes</h2>
+          
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-6 mt-5 w-full'>
             {
               notes.map((note,index)=>{
